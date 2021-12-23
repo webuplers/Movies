@@ -1,0 +1,21 @@
+@import "variables";
+@import "colors";
+@import "global";
+@import "typography";
+body{background-color: white;}
+.btn-search{padding: 10px;}
+form.form-inline > input{height: 42px;}
+// #movie-listings {
+//     display: table; /* Make the container element behave like a table */
+//     width: 100%; /* Set full-width to expand the whole page */
+//   }
+  
+//   .equalHeight {
+//     display: table-cell; /* Make elements inside the container behave like table cells */
+//   }
+
+
+// /*******************/
+// @media only screen and (max-width: 767px) {
+//     form.form-inline > input{margin-bottom: 10px;}
+//   }

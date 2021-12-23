@@ -1,0 +1,41 @@
+@import "variables";
+@import "colors";
+@import "global";
+@import "typography";
+body{background-color: white;}
+.btn-search{padding: 10px;}
+form.form-inline > input{height: 42px;}
+.img-responsive {
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 350px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.movieLoader {
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid #337AB7;
+    border-right: 10px solid #28303d;
+    border-bottom: 10px solid #337AB7;
+    border-left: 10px solid #28303d;
+    width: 10px;
+    height: 10px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+/*******************/
+@media only screen and (max-width: 767px) {
+    form.form-inline > input{margin-bottom: 10px;}
+  }

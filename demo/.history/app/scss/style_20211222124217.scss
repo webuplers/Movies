@@ -1,0 +1,12 @@
+@import "variables";
+@import "colors";
+@import "global";
+@import "typography";
+body{background-color: white;}
+.btn-search{padding: 10px;}
+
+
+/*******************/
+@media only screen and (max-width: 767px) {
+    form.form-inline{margin-bottom: 10px;}
+  }
